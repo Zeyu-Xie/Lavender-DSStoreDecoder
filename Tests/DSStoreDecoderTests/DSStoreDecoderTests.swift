@@ -2,6 +2,6 @@ import Testing
 @testable import DSStoreDecoder
 
 @Test func example() async throws {
-    let result = printHelloWorld()    
+    let result = returnHelloWorld()    
     #expect(result == "Hello, world!")
 }
